@@ -164,21 +164,6 @@ Edit `config.json` to customize your setup:
 }
 ```
 
-## 📚 Research Background
-
-This project implements algorithms from:
-- **"Hermes: Scalable and Robust Structure-Aware Optimal Routing for Decentralized Exchanges"** - Core treewidth-based approach
-- **FlowCutter PACE 2020** - Tree decomposition algorithm  
-- **Uniswap Protocol** - Decentralized exchange mechanics
-
-
-## Acknowledgments
-
-- **Uniswap Labs** for the revolutionary DEX protocol
-- **The Graph** for decentralized data indexing
-- **FlowCutter Team** for tree decomposition algorithms
-- **NetworkX** for graph algorithm implementations
-
 ---
 
 ## ⚠️ Disclaimer
