@@ -16,17 +16,6 @@ This project implements the **Hermes Tool**, a breakthrough approach for finding
 - **Arbitrage Detection**: Perfect for finding profitable trading cycles
 - **⚡ Real-time**: Optimized for high-frequency arbitrage detection
 
-## How Hermes Works
-
-The Hermes algorithm transforms complex DeFi trading graphs into efficiently queryable structures:
-
-1. **Tree Decomposition**: Uses FlowCutter to compute optimal treewidth of the trading graph
-2. **Graph Triangulation**: Adds strategic "shortcut" edges to create a triangulated graph
-3. **Perfect Elimination Ordering**: Creates optimal vertex ordering for lightning-fast queries
-4. **Two-Pass Algorithm**: 
-   - **Downward sweep**: Compute distances from source to all vertices
-   - **Upward sweep**: Refine distances using elimination ordering
-5. **Path Reconstruction**: Expand shortcut edges to reveal actual trading paths
 
 **Key Innovation**: Preprocessing trade-off - one-time expensive setup enables thousands of fast queries
 
