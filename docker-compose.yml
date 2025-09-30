@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  graphql-crawler:
+    build: .
+    environment:
+      - GRAPHQL_TOKEN=''
+      - ENV_NUM=0  
+    volumes:
+      - .:/app

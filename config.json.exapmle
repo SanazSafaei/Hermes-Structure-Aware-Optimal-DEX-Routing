@@ -1,0 +1,31 @@
+{
+    "paths": {
+        "database_path": "./data/uniswap.db",
+        "data": "../data/"
+    },
+    "services": {
+        "the_graph_tokens": [
+            "{your_the_graph_token}"
+        ],
+        "ethereum_providers": [
+            "{your_ethereum_provider}"
+        ],
+        "graph_endpoints": {
+            "v4": "https://gateway.thegraph.com/api/subgraphs/id/{your_v4_graph_id}",
+            "v3": "https://gateway.thegraph.com/api/subgraphs/id/{your_v3_graph_id}",
+            "v2": "https://gateway.thegraph.com/api/subgraphs/id/{your_v2_graph_id}"
+        }
+    },
+    "download": {
+        "uniswap_batch_size": 5,
+        "n_threads": 8
+    },
+    "n_threads": 10,
+
+    "experiments": {
+        "start_block_number": "{your_start_block_number}",
+        "coin_list":["{your_coin_id_to_fetch_path_from}"],
+        "timeout": 10
+
+    }
+}

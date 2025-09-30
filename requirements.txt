@@ -1,0 +1,12 @@
+ipykernel==6.29.5
+matplotlib==3.9.4
+networkx==3.2.1
+pandas==2.2.3
+requests==2.32.3
+scipy==1.13.1
+seaborn==0.13.2
+tqdm==4.67.1
+web3==7.10.0
+pandarallel==1.6.5
+Pebble==5.1.1
+python-dateutil==2.8.2
